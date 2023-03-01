@@ -1,0 +1,83 @@
+.navigation-links-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.navigation-links-navlink {
+  color: #fff8f8;
+  text-decoration: none;
+}
+.navigation-links-text {
+  color: #fff8f8;
+  margin-left: var(--dl-space-space-twounits);
+}
+.navigation-links-patient-resources {
+  color: #fff8f8;
+  margin-left: var(--dl-space-space-twounits);
+}
+.navigation-links-icon {
+  fill: var(--dl-color-gray-900);
+  width: 13px;
+}
+.navigation-links-text1 {
+  color: #fff8f8;
+  margin-left: var(--dl-space-space-twounits);
+}
+.navigation-links-text2 {
+  color: #fff8f8;
+  margin-left: var(--dl-space-space-twounits);
+}
+.navigation-links-navlink1 {
+  color: #ffffff;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.navigation-links-container {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-halfunit);
+  flex-direction: row;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+@media(max-width: 767px) {
+  .navigation-links-nav {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .navigation-links-navlink {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-text {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-patient-resources {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-text1 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-text2 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-navlink1 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-container {
+    display: none;
+  }
+}
