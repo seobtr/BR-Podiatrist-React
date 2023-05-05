@@ -4,6 +4,7 @@ import Head from 'next/head'
 import Header from '../components/header'
 import Location from '../components/location'
 import FeatureCard4 from '../components/feature-card4'
+import Footer from '../components/footer'
 
 const AboutUs = (props) => {
   return (
@@ -67,13 +68,13 @@ const AboutUs = (props) => {
                     className="about-us-image1"
                   />
                   <div className="about-us-frame">
-                    <div className="about-us-frame01">
+                    <div className="about-us-frame1">
                       <span className="about-us-text03">
                         <span>Your Trusted Podiatrist</span>
                       </span>
                     </div>
-                    <div className="about-us-frame02">
-                      <div className="about-us-frame03">
+                    <div className="about-us-frame2">
+                      <div className="about-us-frame3">
                         <span className="about-us-text05">D</span>
                         <span className="about-us-text06">
                           <span>R. FORMANEK’S STAFF PRIVILEGES:​</span>
@@ -112,14 +113,14 @@ const AboutUs = (props) => {
               <div className="about-us-section2">
                 <div className="about-us-columnsection1">
                   <div className="about-us-content">
-                    <div className="about-us-frame04">
+                    <div className="about-us-frame4">
                       <span className="about-us-text22">
                         <span>in the know</span>
                       </span>
                     </div>
-                    <div className="about-us-frame05">
-                      <div className="about-us-frame06">
-                        <div className="about-us-frame07">
+                    <div className="about-us-frame5">
+                      <div className="about-us-frame6">
+                        <div className="about-us-frame7">
                           <span className="about-us-text24">
                             <span>DR. FORMANEK&apos;S TRAINING:​</span>
                           </span>
@@ -149,7 +150,7 @@ const AboutUs = (props) => {
                             </span>
                           </span>
                         </div>
-                        <div className="about-us-frame08">
+                        <div className="about-us-frame8">
                           <span className="about-us-text34">
                             <span>CLINICAL EXTERNSHIPS</span>
                           </span>
@@ -197,102 +198,9 @@ const AboutUs = (props) => {
                 </div>
               </div>
             </div>
-            <div className="about-us-footer">
-              <div className="about-us-frame09">
-                <div className="about-us-frame10">
-                  <div className="about-us-frame11">
-                    <img
-                      alt="IMAGE1013"
-                      src="/playground_assets/image1013-289g-200h.png"
-                      className="about-us-image3"
-                    />
-                  </div>
-                </div>
-              </div>
-              <div className="about-us-frame12">
-                <div className="about-us-frame13">
-                  <div className="about-us-frame14">
-                    <span className="about-us-text48">
-                      <span>Locations</span>
-                    </span>
-                    <div className="about-us-frame15">
-                      <div className="about-us-frame16">
-                        <div className="about-us-frame17">
-                          <span className="about-us-text50">
-                            <span>Baton rouge</span>
-                          </span>
-                          <span className="about-us-text52">
-                            <span>6141 ParkForest Dr</span>
-                          </span>
-                          <span className="about-us-text54">
-                            <span>Baton Rouge, LA</span>
-                          </span>
-                          <span className="about-us-text56">
-                            <span>(225) 756-0034</span>
-                          </span>
-                        </div>
-                        <div className="about-us-frame18">
-                          <span className="about-us-text58">
-                            <span>Gonzales</span>
-                          </span>
-                          <span className="about-us-text60">
-                            <span>826 West Hwy 30 Ste A</span>
-                          </span>
-                          <span className="about-us-text62">
-                            <span>Gonzales, LA</span>
-                          </span>
-                          <span className="about-us-text64">
-                            <span>(225) 803-1516</span>
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="about-us-frame19">
-                    <span className="about-us-text66">
-                      <span>Resource Links</span>
-                    </span>
-                    <div className="about-us-frame20">
-                      <span className="about-us-text68">
-                        <span>Insurance</span>
-                      </span>
-                    </div>
-                  </div>
-                  <div className="about-us-frame21">
-                    <span className="about-us-text70">
-                      <span>press</span>
-                    </span>
-                    <span className="about-us-text72">
-                      <span>weekly newsletter sign up</span>
-                    </span>
-                    <div className="about-us-frame22">
-                      <div className="about-us-frame23">
-                        <img
-                          alt="Rectangle1013"
-                          src="/playground_assets/rectangle1013-ibmj-200h.png"
-                          className="about-us-rectangle"
-                        />
-                        <button className="about-us-button button">
-                          Contact Us
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="about-us-disclaimer">
-                <span className="about-us-text74">
-                  <span>
-                    Content, including images, displayed on this website is
-                    protected by copyright laws. Downloading, republication,
-                    retransmission or reproduction of content on this website is
-                    strictly prohibited. Terms of Use | Privacy Policy
-                  </span>
-                </span>
-              </div>
-            </div>
           </div>
         </div>
+        <Footer></Footer>
       </div>
       <style jsx>
         {`
@@ -445,7 +353,7 @@ const AboutUs = (props) => {
             border-color: transparent;
             flex-direction: column;
           }
-          .about-us-frame01 {
+          .about-us-frame1 {
             display: flex;
             padding: 2px 24px;
             position: relative;
@@ -469,7 +377,7 @@ const AboutUs = (props) => {
             margin-bottom: 0;
             text-decoration: none;
           }
-          .about-us-frame02 {
+          .about-us-frame2 {
             display: flex;
             position: relative;
             align-items: flex-start;
@@ -477,7 +385,7 @@ const AboutUs = (props) => {
             margin-bottom: 31px;
             flex-direction: column;
           }
-          .about-us-frame03 {
+          .about-us-frame3 {
             display: flex;
             position: relative;
             align-items: center;
@@ -564,7 +472,7 @@ const AboutUs = (props) => {
             margin-right: var(--dl-space-space-unit);
             flex-direction: column;
           }
-          .about-us-frame04 {
+          .about-us-frame4 {
             display: flex;
             padding: 2px 24px;
             position: relative;
@@ -589,7 +497,7 @@ const AboutUs = (props) => {
             margin-bottom: 0;
             text-decoration: none;
           }
-          .about-us-frame05 {
+          .about-us-frame5 {
             display: flex;
             padding: 15px 0;
             position: relative;
@@ -597,14 +505,14 @@ const AboutUs = (props) => {
             border-color: transparent;
             flex-direction: column;
           }
-          .about-us-frame06 {
+          .about-us-frame6 {
             display: flex;
             position: relative;
             align-items: flex-start;
             border-color: transparent;
             flex-direction: column;
           }
-          .about-us-frame07 {
+          .about-us-frame7 {
             display: flex;
             padding: 0 12px;
             position: relative;
@@ -708,7 +616,7 @@ const AboutUs = (props) => {
             margin-bottom: var(--dl-space-space-halfunit);
             text-decoration: none;
           }
-          .about-us-frame08 {
+          .about-us-frame8 {
             display: flex;
             padding: 15px 5px;
             position: relative;
@@ -834,406 +742,6 @@ const AboutUs = (props) => {
             position: relative;
             border-color: transparent;
           }
-          .about-us-footer {
-            width: 100%;
-            height: 100%;
-            display: flex;
-            position: relative;
-            flex-grow: 1;
-            align-self: stretch;
-            align-items: flex-start;
-            border-color: transparent;
-            flex-direction: column;
-          }
-          .about-us-frame09 {
-            display: flex;
-            position: relative;
-            flex-grow: 1;
-            align-self: stretch;
-            align-items: center;
-            border-color: transparent;
-            margin-bottom: 25px;
-            flex-direction: column;
-          }
-          .about-us-frame10 {
-            display: flex;
-            position: relative;
-            align-items: flex-start;
-            padding-top: 0 400px;
-            border-color: transparent;
-            padding-left: var(--dl-space-space-halfunit);
-            padding-right: var(--dl-space-space-halfunit);
-            flex-direction: column;
-            padding-bottom: 0 400px;
-          }
-          .about-us-frame11 {
-            display: flex;
-            padding: 29px 88px;
-            position: relative;
-            align-items: flex-start;
-            border-color: transparent;
-            flex-direction: column;
-          }
-          .about-us-image3 {
-            width: 224px;
-            height: 64px;
-            position: relative;
-            border-color: transparent;
-          }
-          .about-us-frame12 {
-            display: flex;
-            position: relative;
-            align-items: flex-start;
-            border-color: transparent;
-            margin-bottom: 25px;
-            flex-direction: column;
-          }
-          .about-us-frame13 {
-            width: 100%;
-            height: 100%;
-            display: flex;
-            position: relative;
-            align-items: flex-start;
-            border-color: transparent;
-            justify-content: center;
-          }
-          .about-us-frame14 {
-            height: 100%;
-            display: flex;
-            padding: 8px 10px;
-            position: relative;
-            align-items: center;
-            border-color: transparent;
-            margin-right: 0px;
-            flex-direction: column;
-          }
-          .about-us-text48 {
-            color: rgba(58, 107, 166, 1);
-            width: 113px;
-            height: auto;
-            font-size: 18px;
-            align-self: auto;
-            font-style: Regular;
-            text-align: center;
-            font-family: Montserrat;
-            font-weight: 400;
-            line-height: 18px;
-            font-stretch: normal;
-            margin-right: 0;
-            margin-bottom: 21px;
-            text-decoration: none;
-          }
-          .about-us-frame15 {
-            display: flex;
-            position: relative;
-            align-items: flex-start;
-            border-color: transparent;
-          }
-          .about-us-frame16 {
-            display: flex;
-            position: relative;
-            align-items: flex-start;
-            border-color: transparent;
-          }
-          .about-us-frame17 {
-            display: flex;
-            padding: 8px 19px;
-            position: relative;
-            align-items: center;
-            border-color: transparent;
-            margin-right: 0px;
-            flex-direction: column;
-          }
-          .about-us-text50 {
-            color: rgba(58, 107, 166, 1);
-            width: 151px;
-            height: auto;
-            font-size: 19px;
-            align-self: auto;
-            font-style: Regular;
-            text-align: center;
-            font-family: Montserrat;
-            font-weight: 400;
-            line-height: 19px;
-            font-stretch: normal;
-            margin-right: 0;
-            margin-bottom: 10px;
-            text-decoration: none;
-          }
-          .about-us-text52 {
-            color: rgba(122, 122, 122, 1);
-            width: 137px;
-            height: auto;
-            font-size: 14px;
-            align-self: auto;
-            font-style: Regular;
-            text-align: center;
-            font-family: Montserrat;
-            font-weight: 400;
-            line-height: 14px;
-            font-stretch: normal;
-            margin-right: 0;
-            margin-bottom: 10px;
-            text-decoration: none;
-          }
-          .about-us-text54 {
-            color: rgba(122, 122, 122, 1);
-            width: 123px;
-            height: auto;
-            font-size: 14px;
-            align-self: auto;
-            font-style: Regular;
-            text-align: center;
-            font-family: Montserrat;
-            font-weight: 400;
-            line-height: 14px;
-            font-stretch: normal;
-            margin-right: 0;
-            margin-bottom: 10px;
-            text-decoration: none;
-          }
-          .about-us-text56 {
-            color: rgba(122, 122, 122, 1);
-            width: 109px;
-            height: auto;
-            font-size: 14px;
-            align-self: auto;
-            font-style: Regular;
-            text-align: center;
-            font-family: Montserrat;
-            font-weight: 400;
-            line-height: 14px;
-            font-stretch: normal;
-            margin-right: 0;
-            margin-bottom: 0;
-            text-decoration: none;
-          }
-          .about-us-frame18 {
-            display: flex;
-            padding: 8px 16px;
-            position: relative;
-            align-items: center;
-            border-color: transparent;
-            flex-direction: column;
-          }
-          .about-us-text58 {
-            color: rgba(58, 107, 166, 1);
-            width: 111px;
-            height: auto;
-            font-size: 19px;
-            align-self: auto;
-            font-style: Regular;
-            text-align: center;
-            font-family: Montserrat;
-            font-weight: 400;
-            line-height: 19px;
-            font-stretch: normal;
-            margin-right: 0;
-            margin-bottom: 10px;
-            text-decoration: none;
-          }
-          .about-us-text60 {
-            color: rgba(122, 122, 122, 1);
-            width: 157px;
-            height: auto;
-            font-size: 14px;
-            align-self: auto;
-            font-style: Regular;
-            text-align: center;
-            font-family: Montserrat;
-            font-weight: 400;
-            line-height: 14px;
-            font-stretch: normal;
-            margin-right: 0;
-            margin-bottom: 10px;
-            text-decoration: none;
-          }
-          .about-us-text62 {
-            color: rgba(122, 122, 122, 1);
-            width: 95px;
-            height: auto;
-            font-size: 14px;
-            align-self: auto;
-            font-style: Regular;
-            text-align: center;
-            font-family: Montserrat;
-            font-weight: 400;
-            line-height: 14px;
-            font-stretch: normal;
-            margin-right: 0;
-            margin-bottom: 10px;
-            text-decoration: none;
-          }
-          .about-us-text64 {
-            color: rgba(122, 122, 122, 1);
-            width: 102px;
-            height: auto;
-            font-size: 14px;
-            align-self: auto;
-            font-style: Regular;
-            text-align: center;
-            font-family: Montserrat;
-            font-weight: 400;
-            line-height: 14px;
-            font-stretch: normal;
-            margin-right: 0;
-            margin-bottom: 0;
-            text-decoration: none;
-          }
-          .about-us-frame19 {
-            width: 308px;
-            height: 100%;
-            display: flex;
-            padding: 8px 10px;
-            position: relative;
-            align-items: center;
-            border-color: transparent;
-            margin-right: 0px;
-            flex-direction: column;
-          }
-          .about-us-text66 {
-            color: rgba(58, 107, 166, 1);
-            width: 168px;
-            height: auto;
-            font-size: 18px;
-            align-self: auto;
-            font-style: Regular;
-            text-align: center;
-            font-family: Montserrat;
-            font-weight: 400;
-            line-height: 18px;
-            font-stretch: normal;
-            margin-right: 0;
-            margin-bottom: 22px;
-            text-decoration: none;
-          }
-          .about-us-frame20 {
-            display: flex;
-            padding: 10px 135px;
-            position: relative;
-            align-items: flex-start;
-            border-color: transparent;
-          }
-          .about-us-text68 {
-            color: rgba(155, 155, 155, 1);
-            height: auto;
-            font-size: 17px;
-            align-self: auto;
-            font-style: Regular;
-            text-align: center;
-            font-family: Montserrat;
-            font-weight: 400;
-            line-height: 27px;
-            font-stretch: normal;
-            margin-right: 0;
-            margin-bottom: 0;
-            text-decoration: none;
-          }
-          .about-us-frame21 {
-            width: 100%;
-            height: 100%;
-            display: flex;
-            padding: 8px 7px;
-            position: relative;
-            align-items: center;
-            border-color: transparent;
-            flex-direction: column;
-          }
-          .about-us-text70 {
-            color: rgba(58, 107, 166, 1);
-            width: 62px;
-            height: auto;
-            font-size: 18px;
-            align-self: auto;
-            font-style: Regular;
-            text-align: center;
-            font-family: Montserrat;
-            font-weight: 400;
-            line-height: 18px;
-            font-stretch: normal;
-            margin-right: 0;
-            margin-bottom: 16px;
-            text-decoration: none;
-          }
-          .about-us-text72 {
-            color: rgba(58, 107, 166, 1);
-            width: 319px;
-            height: auto;
-            font-size: 19px;
-            align-self: auto;
-            font-style: Regular;
-            text-align: center;
-            font-family: Montserrat;
-            font-weight: 400;
-            line-height: 19px;
-            font-stretch: normal;
-            margin-right: 0;
-            margin-bottom: 16px;
-            text-decoration: none;
-          }
-          .about-us-frame22 {
-            height: 128px;
-            display: flex;
-            position: relative;
-            align-items: flex-start;
-            flex-shrink: 0;
-            border-color: transparent;
-            flex-direction: column;
-          }
-          .about-us-frame23 {
-            width: 100%;
-            height: 100%;
-            display: flex;
-            padding: 0 3px;
-            position: relative;
-            align-items: flex-start;
-            border-color: transparent;
-            margin-bottom: 12px;
-            flex-direction: column;
-          }
-          .about-us-rectangle {
-            width: 380px;
-            height: 40px;
-            position: relative;
-            border-color: rgba(129, 138, 145, 1);
-            border-style: solid;
-            border-width: 1px;
-            border-radius: 10px;
-          }
-          .about-us-button {
-            color: #ffffff;
-            align-self: center;
-            margin-top: var(--dl-space-space-halfunit);
-            text-align: center;
-            font-family: Montserrat;
-            background-color: #3a6ba6;
-          }
-          .about-us-disclaimer {
-            width: 100%;
-            height: 100%;
-            display: flex;
-            padding: 24px 43px;
-            position: relative;
-            align-items: flex-start;
-            border-color: transparent;
-            background-color: rgba(58, 107, 166, 1);
-          }
-          .about-us-text74 {
-            color: rgba(255, 255, 255, 1);
-            width: 1114px;
-            height: auto;
-            font-size: 11px;
-            align-self: auto;
-            font-style: Regular;
-            text-align: center;
-            font-family: Montserrat;
-            font-weight: 400;
-            line-height: 11px;
-            font-stretch: normal;
-            margin-right: 0;
-            margin-bottom: 0;
-            text-decoration: none;
-          }
           @media (max-width: 991px) {
             .about-us-features {
               align-items: center;
@@ -1273,37 +781,6 @@ const AboutUs = (props) => {
             }
             .about-us-content {
               width: auto;
-            }
-            .about-us-frame10 {
-              width: 100%;
-              align-self: center;
-              padding-left: var(--dl-space-space-twounits);
-              padding-right: var(--dl-space-space-twounits);
-            }
-            .about-us-frame11 {
-              align-self: center;
-            }
-            .about-us-frame12 {
-              width: 100%;
-            }
-            .about-us-frame13 {
-              width: 100%;
-              flex-direction: column;
-            }
-            .about-us-frame14 {
-              width: 100%;
-            }
-            .about-us-frame19 {
-              width: 100%;
-            }
-            .about-us-frame21 {
-              width: 100%;
-            }
-            .about-us-disclaimer {
-              width: 100%;
-              height: 100%;
-              align-self: center;
-              flex-direction: row;
             }
           }
           @media (max-width: 767px) {
@@ -1384,16 +861,16 @@ const AboutUs = (props) => {
               height: 100%;
               margin-right: 0px;
             }
-            .about-us-frame05 {
+            .about-us-frame5 {
               width: 100%;
               height: 100%;
             }
-            .about-us-frame06 {
+            .about-us-frame6 {
               width: 100%;
               height: 100%;
               align-items: center;
             }
-            .about-us-frame07 {
+            .about-us-frame7 {
               width: 100%;
               height: 100%;
             }
@@ -1409,7 +886,7 @@ const AboutUs = (props) => {
             .about-us-text32 {
               width: auto;
             }
-            .about-us-frame08 {
+            .about-us-frame8 {
               align-self: center;
             }
             .about-us-text36 {

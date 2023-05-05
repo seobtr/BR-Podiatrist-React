@@ -13,10 +13,6 @@
   --dl-size-size-xlarge: 192px;
   --dl-size-size-xsmall: 16px;
   --dl-space-space-unit: 16px;
-  --dl-color-primary-100: #003EB3;
-  --dl-color-primary-300: #0074F0;
-  --dl-color-primary-500: #14A9FF;
-  --dl-color-primary-700: #85DCFF;
   --dl-color-success-300: #199033;
   --dl-color-success-500: #32A94C;
   --dl-color-success-700: #4CC366;
@@ -31,7 +27,10 @@
   --dl-radius-radius-radius8: 8px;
   --dl-space-space-fiveunits: 80px;
   --dl-space-space-fourunits: 64px;
+  --dl-color-primary-brp-blue: #3a6ba6ff;
   --dl-space-space-threeunits: 48px;
+  --dl-color-primary-brpbluelight: #9cb3d4ff;
+  --dl-color-primary-brpblueaccent: #779bbfff;
   --dl-space-space-oneandhalfunits: 24px;
 }
 .button {
@@ -76,26 +75,157 @@
   display: flex !important;
   transform: none !important;
 }
+.whiteButton {
+  transition: 0.3s;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: var(--dl-color-gray-white);
+  border-top-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+}
+.whiteButton:hover {
+  color: #ffffff;
+  transform: scale(1.02);
+  background-color: #3a6ba6;
+}
+.blueCard {
+  flex: 1;
+  color: var(--dl-color-gray-white);
+  height: 450px;
+  display: flex;
+  max-width: 450px;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  background-color: #3a6ba6;
+}
+.blueCard:hover {
+  transform: scale(1.02);
+}
+.H1-Desktop {
+  font-size: 42px;
+  font-family: Montserrat;
+  font-weight: 500;
+  text-transform: none;
+  text-decoration: none;
+}
+.H3-Mobile {
+  font-size: 24px;
+  font-family: Montserrat;
+  font-weight: 500;
+  text-transform: none;
+  text-decoration: none;
+}
+.H4-Desktop {
+  font-size: 24px;
+  font-family: Montserrat;
+  font-weight: 500;
+  text-transform: none;
+  text-decoration: none;
+}
+.H4-Mobile {
+  font-size: 20px;
+  font-family: Montserrat;
+  font-weight: 500;
+  text-transform: none;
+  text-decoration: none;
+}
+.H2-Mobile {
+  font-size: 28px;
+  font-family: Montserrat;
+  font-weight: 500;
+  text-transform: none;
+  text-decoration: none;
+}
+.H6-Desktop {
+  font-size: 18px;
+  font-family: Montserrat;
+  font-weight: 500;
+  text-transform: none;
+  text-decoration: none;
+}
 .TextSM {
-  font-size: 0.87rem;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen","Ubuntu", "Cantarell", "Fira Sans","Droid Sans", "Helvetica Neue", sans-serif;
+  font-size: 1rem;
+  font-family: Montserrat;
   font-weight: 400;
   line-height: 1.25;
   text-decoration: none;
 }
+.H5-Mobile {
+  font-size: 16px;
+  font-family: Montserrat;
+  font-weight: 500;
+  text-transform: none;
+  text-decoration: none;
+}
+.H5-Desktop {
+  font-size: 20px;
+  font-family: Montserrat;
+  font-weight: 500;
+  text-transform: none;
+  text-decoration: none;
+}
 .Content {
   font-size: 16px;
-  font-family: Inter;
+  font-family: Montserrat;
   font-weight: 400;
   line-height: 1.15;
   text-transform: none;
   text-decoration: none;
 }
-.Heading {
-  font-size: 32px;
-  font-family: Inter;
-  font-weight: 700;
-  line-height: 1.15;
+.H3-Desktop {
+  font-size: 30px;
+  font-family: Montserrat;
+  font-weight: 500;
   text-transform: none;
   text-decoration: none;
+}
+.H1-Mobile {
+  font-size: 32px;
+  font-family: Montserrat;
+  font-weight: 500;
+  text-transform: none;
+  text-decoration: none;
+}
+.H6-Mobile {
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 500;
+  text-transform: none;
+  text-decoration: none;
+}
+.H2-Desktop {
+  font-size: 36px;
+  font-family: Montserrat;
+  font-weight: 500;
+  text-transform: none;
+  text-decoration: none;
+}
+.Body-Mobile {
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 500;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@media(max-width: 767px) {
+  .blueCard {
+    width: 100%;
+  }
+}
+@media(max-width: 479px) {
+  .whiteButton {
+    margin-top: var(--dl-space-space-unit);
+    margin-left: 0px;
+  }
 }
